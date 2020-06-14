@@ -1,0 +1,11 @@
+karol\spring\toDoApp\models\Task.class
+karol\spring\toDoApp\controllers\IndexController.class
+karol\spring\toDoApp\repositories\TaskRepository.class
+karol\spring\toDoApp\ToDoAppApplication.class
+karol\spring\toDoApp\converters\TaskCommandToTask.class
+karol\spring\toDoApp\converters\TaskToTaskCommand.class
+karol\spring\toDoApp\boostrap\LoadData.class
+karol\spring\toDoApp\commands\TaskCommand.class
+karol\spring\toDoApp\services\TaskService.class
+karol\spring\toDoApp\controllers\TaskController.class
+karol\spring\toDoApp\services\TaskServiceImpl.class

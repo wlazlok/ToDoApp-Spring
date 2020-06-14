@@ -1,0 +1,11 @@
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\services\TaskServiceImpl.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\ToDoAppApplication.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\controllers\TaskController.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\converters\TaskCommandToTask.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\repositories\TaskRepository.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\boostrap\LoadData.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\controllers\IndexController.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\services\TaskService.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\commands\TaskCommand.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\converters\TaskToTaskCommand.java
+C:\Users\Karol\Desktop\ToDoApp-Spring\src\main\java\karol\spring\toDoApp\models\Task.java
