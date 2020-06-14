@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spirng Boot App</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mx-auto" style="text-align: center; margin-bottom: 3%;">
+        <h1>To Do App with Spring</h1>
+    </div>
+    <div class="mx-auto" style="width: 70%;">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th>Description</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr th:each="task : ${tasks}">
+                    <th th:text="${task.id}"></th>
+                    <td th:text="${task.description}"></td>
+                    <td><a href="https://google.com" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-right: 50%;">
+            <a href="https://google.com" class="btn btn-success">Add new task</a>
+        </div>
+    </div>
+</body>
+</html>
