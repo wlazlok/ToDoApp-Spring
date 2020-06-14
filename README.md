@@ -29,7 +29,6 @@ Then you can open app in browser on port **8081** *(http://localhost:8081/)*
 * **email:** kwlazo9@gmail.com
 
 ## Screenshots
-![Title screen](./images/bomberman_title.PNG)
-![Board](./images/bomberman_board.PNG)
-![Instruction screen](./images/bomberman_instruction.PNG)
-![High scores screen](./images/bomberman_high_scores.PNG)
+
+![Index page](./images/index.PNG)
+![Add new task](./images/addTask.PNG)
