@@ -19,7 +19,7 @@ Project is created with:
 ## Setup
 To open and run this project, follow this commands:
 1. git clone https://github.com/wlazlok/ToDoApp-Spring.git
-2. cd Bomberman
+2. cd .\ToDoApp-Spring\
 3. mvn spring-boot:run
 
 Then you can open app in browser on port **8081** *(http://localhost:8081/)*
