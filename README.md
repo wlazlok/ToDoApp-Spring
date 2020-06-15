@@ -15,6 +15,7 @@ Project is created with:
 * Spring Boot version 2.3.1
 * H2 Database version 1.4.200
 * Thymeleaf version 3.0.11
+* JUnit 5
 
 ## Setup
 To open and run this project, follow this commands:
